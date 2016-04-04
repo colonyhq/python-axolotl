@@ -88,7 +88,7 @@ class SessionCipher:
             try:
                 return plaintext.decode()
             except UnicodeDecodeError as e:
-                print('decryptMsg -> ', e)
+                print('decryptMsg ->', e)
                 return plaintext.decode('latin_1')
 
         return plaintext

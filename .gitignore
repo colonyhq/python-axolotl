@@ -127,3 +127,5 @@ Session.vim
 .netrwhist
 *~
 
+###PyCharm###
+.idea/
